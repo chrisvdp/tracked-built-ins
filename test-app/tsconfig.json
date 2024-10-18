@@ -6,11 +6,24 @@
     // work with TypeScript.
     "baseUrl": ".",
     "paths": {
-      "test-app/tests/*": ["tests/*"],
-      "test-app/*": ["app/*"],
-      "*": ["types/*"]
+      "test-app/tests/*": [
+        "tests/*"
+      ],
+      "test-app/*": [
+        "app/*"
+      ],
+      "*": [
+        "types/*"
+      ]
     },
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "lib": [
+      "ESNext"
+    ]
   },
-  "include": ["app/**/*", "tests/**/*", "types/**/*"]
+  "include": [
+    "app/**/*",
+    "tests/**/*",
+    "types/**/*"
+  ]
 }
